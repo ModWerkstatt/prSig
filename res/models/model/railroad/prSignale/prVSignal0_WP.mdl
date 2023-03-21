@@ -1,0 +1,86 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { -1, -1.3, 5, },
+		bbMin = { 0, -3, -1.4, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0.93649685382843, 0.31987065076828, 5.7392711639404, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+                        materials = { "railroad/prSignale/prVSig.mtl", },
+						mesh = "railroad/prSignale/Vs_mast_lod0.msh",
+						name = "Mast",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.642936, -1.81318, 0.552943, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "railroad/prSignale/prVSig.mtl", },
+						mesh = "railroad/prSignale/Vs_scheibe_lod0.msh",
+						name = "1_Flügel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.740537, -1.99957, 4.24988, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "railroad/prSignale/prVSig.mtl", },
+						mesh = "railroad/prSignale/Vs_licht_lod0.msh",
+						name = "1_Gewicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.748342, -1.99057, 3.13311, 1, },
+					},
+					{
+						_meshId = 4,
+						materials = { "railroad/prSignale/prVSig.mtl", },
+						mesh = "railroad/prSignale/Vs_mechanik_lod0.msh",
+						name = "1_Mechanik",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.643952, -2.17963, 0.518076, 1, },
+					},
+					{
+						_meshId = 5,
+						materials = { "railroad/prSignale/prVSig.mtl", },
+						mesh = "railroad/prSignale/Vs_seil_lod0.msh",
+						name = "1_Seil_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.747558, -1.7367, 1.80483, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 882.07556152344,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1871,
+			yearTo = 1910,
+		},
+		cost = {
+			price = 3000,
+		},
+		description = {
+			description = _("prVSig0_desc"),
+			name = _("prVSig0_name"),
+		},
+		signal = {
+			type = "WAYPOINT",
+		},
+        category = {
+			categories = {"Preußische Vorsignale"}
+		},
+		prSignale = {
+			waypoint = true,
+		},
+	},
+	version = 1,
+}
+end

@@ -1,0 +1,42 @@
+function data()
+return {
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/railroad/prSig/prSig_albedo_opacity.dds",
+			scaleDownAllowed = false,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/railroad/prSig/prSig_metal_gloss_ao.dds",
+			scaleDownAllowed = false,
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/railroad/prSig/prSig_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT_NRML_MAP",
+}
+end

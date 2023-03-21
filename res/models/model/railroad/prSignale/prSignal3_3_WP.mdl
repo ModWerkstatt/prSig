@@ -1,0 +1,441 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { -1, -1.5, 11, },
+		bbMin = { 1, -3.8, -1.4, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0.93649685382843, 0.31987065076828, 5.7392711639404, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+                        materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/mast_lod0.msh",
+						name = "Mast",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.0011942386627, 0.011944726109505, 4.4395623207092, 1, },
+					},
+
+                    -- Flügel 1
+
+					{
+						_meshId = 2,
+                        animations = {
+							red = {
+                                forward = false,
+								params = {
+									id = "railroad/prSignale/1_Flügel.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/1_Flügel.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/1_fluegel_lod0.msh",
+						name = "1_Flügel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9703155755997, -0.17058277130127, 9.771430015564, 1, },
+					},
+					{
+						_meshId = 3,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/1_Gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/1_Gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/1_gewicht_lod0.msh",
+						name = "1_Gewicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.757044672966, 0.16177348792553, 0.51824128627777, 1, },
+					},
+					{
+						_meshId = 4,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/1_Mechanik.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/1_Mechanik.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/1_mechanik_lod0.msh",
+						name = "1_Mechanik",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9983615875244, 0.16380771994591, 0.93373090028763, 1, },
+					},
+					{
+						_meshId = 5,
+                        animations = {
+							red = {
+                                forward = false,
+								params = {
+									id = "railroad/prSignale/1_Seil_oben.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/1_Seil_oben.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/1_seil_oben_lod0.msh",
+						name = "1_Seil_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9983615875244, 0.16380771994591, 0.93373090028763, 1, },
+					},
+					{
+						_meshId = 6,
+                        animations = {
+							red = {
+                                forward = false,
+								params = {
+									id = "railroad/prSignale/1_Seil_unten.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/1_Seil_unten.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/1_seil_unten_lod0.msh",
+						name = "1_Seil_unten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7610009908676, 0.20649389922619, 0.69273656606674, 1, },
+					},
+
+                    -- Flügel 2
+
+					{
+						_meshId = 7,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/2_Flügel.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Flügel.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_fluegel_lod0.msh",
+						name = "2_Flügel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.0022277832031, -0.17056886851788, 7.7681579589844, 1, },
+					},
+					{
+						_meshId = 8,
+                        animations = {
+							red = {
+                                forward = false,
+								params = {
+									id = "railroad/prSignale/2_Gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_gewicht_lod0.msh",
+						name = "2_Gewicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2293875217438, 0.16177350282669, 0.51824128627777, 1, },
+					},
+					{
+						_meshId = 9,
+                        animations = {
+							red = {
+                                forward = false,
+								params = {
+									id = "railroad/prSignale/2_Mechanik oben.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Mechanik oben.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_mechanik_oben_lod0.msh",
+						name = "2_Mechanik oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9909038543701, 0.13155283033848, 7.8963823318481, 1, },
+					},
+					{
+						_meshId = 10,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/2_Mechanik unten.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Mechanik unten.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_meachnik_unten_lod0.msh",
+						name = "2_Mechanik unten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9983614683151, 0.16380771994591, 0.7385196685791, 1, },
+					},
+					{
+						_meshId = 11,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/2_Seil_innen.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Seil_innen.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_seil_innen_lod0.msh",
+						name = "2_Seil_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2307696342468, 0.1896101385355, 0.64153850078583, 1, },
+					},
+					{
+						_meshId = 12,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/2_Seil_oben.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Seil_oben.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+                        materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_seil_oben_lod0.msh",
+						name = "2_Seil_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7725728750229, -0.010491877794266, 7.7588577270508, 1, },
+					},
+					{
+						_meshId = 13,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/2_Seil_unten.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/2_Seil_unten.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/2_seil_unten_lod0.msh",
+						name = "2_Seil_unten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2329595088959, 0.10081224143505, 4.1823062896729, 1, },
+					},
+
+                    -- Flügel 3
+
+					{
+						_meshId = 14,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/3_Flügel.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/3_Flügel.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/3_fluegel_lod0.msh",
+						name = "3_Flügel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.992418050766, -0.17058278620243, 5.8558707237244, 1, },
+					},
+					{
+						_meshId = 15,
+                        animations = {
+							 red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/3_Gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/3_Gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/3_gewicht_lod0.msh",
+						name = "3_Gewicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6993887424469, 0.16177348792553, 0.51824128627777, 1, },
+					},
+					{
+						_meshId = 16,
+                        animations = {
+							red = {
+                                forward = false,
+								params = {
+									id = "railroad/prSignale/3_Mechanik.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/3_Mechanik.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/3_mechanik_lod0.msh",
+						name = "3_Mechanik",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9909038543701, 0.15979313850403, 1.1796616315842, 1, },
+					},
+					{
+						_meshId = 17,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/3_Seil_oben.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/3_Seil_oben.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/3_seil_oben_lod0.msh",
+						name = "3_Seil_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7483921051025, 0.012498512864113, 3.1088829040527, 1, },
+					},
+					{
+						_meshId = 18,
+                        animations = {
+							red = {
+								forward = false,
+								params = {
+									id = "railroad/prSignale/3_Seil_unten.ani",
+								},
+								type = "FILE_REF",
+							},
+                            green = {
+								params = {
+									id = "railroad/prSignale/3_Seil_unten.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "railroad/prSignale/prSig.mtl", },
+						mesh = "railroad/prSignale/3_seil_unten_lod0.msh",
+						name = "3_Seil_unten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7183394432068, 0.20384657382965, 0.81574583053589, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = {0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 882.07556152344,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1871,
+			yearTo = 1910,
+		},
+		cost = {
+			price = 3000,
+		},
+		description = {
+			description = _("prSig33_desc"),
+			name = _("prSig33_name"),
+		},
+		signal = {
+			type = "WAYPOINT",
+		},
+        category = {
+			categories = {"Preußische Signale"}
+		},
+		prSignale = {
+			waypoint = true,
+		},
+	},
+	version = 1,
+}
+end
