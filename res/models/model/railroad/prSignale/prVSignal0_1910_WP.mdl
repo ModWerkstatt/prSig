@@ -26,7 +26,7 @@ return {
 						_meshId = 2,
 						materials = { "railroad/prSignale/prVSig_1910.mtl", },
 						mesh = "railroad/prSignale/Vs_scheibe_lod0.msh",
-						name = "1_Flügel",
+						name = "1_Fluegel",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.740537, -1.99957, 4.24988, 1, },
 					},
 					{

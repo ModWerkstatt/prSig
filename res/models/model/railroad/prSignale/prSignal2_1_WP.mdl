@@ -23,7 +23,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.0011942386627, 0.011944726109505, 4.4395623207092, 1, },
 					},
 
-                    -- Flügel 1
+                    -- Fluegel 1
 
 					{
 						_meshId = 2,
@@ -31,20 +31,20 @@ return {
 							red = {
                                 forward = false,
 								params = {
-									id = "railroad/prSignale/1_Flügel.ani",
+									id = "railroad/prSignale/1_Fluegel.ani",
 								},
 								type = "FILE_REF",
 							},
                             green = {
 								params = {
-									id = "railroad/prSignale/1_Flügel.ani",
+									id = "railroad/prSignale/1_Fluegel.ani",
 								},
 								type = "FILE_REF",
 							},
 						},
 						materials = { "railroad/prSignale/prSig.mtl", },
 						mesh = "railroad/prSignale/1_fluegel_lod0.msh",
-						name = "1_Flügel",
+						name = "1_Fluegel",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9703155755997, -0.17058277130127, 9.771430015564, 1, },
 					},
 					{
@@ -136,13 +136,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7610009908676, 0.20649389922619, 0.69273656606674, 1, },
 					},
 
-                    -- Flügel 2
+                    -- Fluegel 2
 
 					{
 						_meshId = 7,
 						materials = { "railroad/prSignale/prSig.mtl", },
 						mesh = "railroad/prSignale/2_fluegel_lod0.msh",
-						name = "2_Flügel",
+						name = "2_Fluegel",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.0022277832031, -0.17056886851788, 7.7681579589844, 1, },
 					},
 					{
